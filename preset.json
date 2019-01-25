@@ -1,0 +1,35 @@
+{
+  "useConfigFiles": true,
+  "router": true,
+  "routerHistoryMode": true,
+  "vuex": true,
+  "cssPreprocessor": "sass",
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "airbnb",
+      "lintOn": [
+        "save"
+      ]
+    },
+    "@vue/cli-plugin-unit-jest": {},
+    "vue-cli-plugin-storybook": {
+      "version": "latest"
+    },
+    "vue-cli-plugin-vuetify": {
+      "version": "latest",
+      "preset": "configure",
+      "replaceComponents": true,
+      "iconFont": "md",
+      "installFonts": false,
+      "locale": "en",
+      "useAlaCarte": true,
+      "useCustomProperties": false,
+      "usePolyfill": false,
+      "useTheme": false
+    },
+    "vue-cli-plugin-thrivehive": {
+      "version": "latest"
+    }
+  }
+}
