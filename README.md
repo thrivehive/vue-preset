@@ -1,6 +1,6 @@
 # Thrivehive Vue CLI Preset
 
-Vue CLI 3.x preset for Thrivehive Vue.js projects. 
+[Vue CLI 3.x](https://cli.vuejs.org/) preset for Thrivehive [Vue.js](https://vuejs.org/) projects. 
 
 This config installs the following into a new project:
 
