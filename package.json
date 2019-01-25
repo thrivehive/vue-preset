@@ -1,0 +1,19 @@
+{
+  "name": "@thrivehive/vue-preset",
+  "version": "1.0.0",
+  "description": "Vue CLI 3.x preset for Thrivehive Vue.js projects",
+  "main": "preset.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thrivehive/vue-preset.git"
+  },
+  "author": "Nick Ford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thrivehive/vue-preset/issues"
+  },
+  "homepage": "https://github.com/thrivehive/vue-preset#readme"
+}
