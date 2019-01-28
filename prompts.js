@@ -1,9 +1,7 @@
 const path = require('path')
 const resolve = file => path.resolve(__dirname, file)
 
-const iconfonts = require(resolve('./util/iconfonts.js'))
 const presets = require(resolve('./util/presets.js'))
-const locales = require(resolve('./util/locales.js'))
 
 function isCustom(answers) {
   return answers.preset === 'configure'
