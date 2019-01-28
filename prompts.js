@@ -1,10 +1,10 @@
-const path = require('path')
-const resolve = file => path.resolve(__dirname, file)
+// const path = require('path');
+// const resolve = file => path.resolve(__dirname, file);
 
-const presets = require(resolve('./util/presets.js'))
+const presets = require('./util/presets.js');
 
 function isCustom(answers) {
-  return answers.preset === 'configure'
+  return answers.preset === 'configure';
 }
 
 module.exports = [
@@ -32,4 +32,4 @@ module.exports = [
     default: false,
     when: isCustom
   }
-]
+];

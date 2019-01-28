@@ -4,7 +4,8 @@
   "description": "Vue CLI 3.x preset for Thrivehive Vue.js projects",
   "main": "preset.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/thrivehive/vue-preset/issues"
   },
-  "homepage": "https://github.com/thrivehive/vue-preset#readme"
+  "homepage": "https://github.com/thrivehive/vue-preset#readme",
+  "devDependencies": {
+    "@thrivehive/eslint-config-node": "^1.0.4",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
 }
