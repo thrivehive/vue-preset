@@ -1,4 +1,5 @@
 module.exports = (api, opts) => {
+  console.log({opts}});
   if (opts.useStorybook) {
     Object.assign(opts.plugins, {
       'vue-cli-plugin-storybook': {
