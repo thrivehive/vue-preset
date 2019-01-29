@@ -1,5 +1,7 @@
 # Thrivehive Vue CLI Preset
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 [Vue CLI 3.x](https://cli.vuejs.org/) preset for Thrivehive [Vue.js](https://vuejs.org/) projects. 
 
 This config installs the following into a new project:
@@ -17,6 +19,14 @@ This config installs the following into a new project:
 - [Thrivehive Vue CLI plugin](https://github.com/thrivehive/vue-cli-plugin-thrivehive)
 
 ## Usage
+
+Make sure [Vue CLI 3.x](https://cli.vuejs.org/) is installed:
+
+```bash
+npm i -g @vue/cli
+```
+
+Create a new project:
 
 ```bash
 vue create --preset thrivehive/vue-preset <project-name>
