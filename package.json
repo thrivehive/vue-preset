@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/thrivehive/vue-preset#readme",
   "devDependencies": {
-    "@thrivehive/eslint-config-node": "^1.0.4",
-    "eslint": "^5.12.1",
+    "@thrivehive/eslint-config-node": "^1.2.3",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.15.0"
+    "eslint-plugin-import": "^2.17.3"
   }
 }
