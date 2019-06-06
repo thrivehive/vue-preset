@@ -3,7 +3,7 @@
   "router": true,
   "routerHistoryMode": true,
   "vuex": true,
-  "cssPreprocessor": "sass",
+  "cssPreprocessor": "dart-sass",
   "plugins": {
     "@vue/cli-plugin-babel": {},
     "@vue/cli-plugin-eslint": {
