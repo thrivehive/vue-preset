@@ -21,10 +21,10 @@
       "preset": "configure",
       "replaceComponents": true,
       "iconFont": "md",
-      "installFonts": false,
+      "installFonts": true,
       "locale": "en",
       "useAlaCarte": true,
-      "useCustomProperties": false,
+      "useCustomProperties": true,
       "usePolyfill": false,
       "useTheme": false
     },
