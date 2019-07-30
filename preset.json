@@ -14,7 +14,7 @@
     },
     "@vue/cli-plugin-unit-jest": {},
     "vue-cli-plugin-storybook": {
-      "version": "^2.0.0"
+      "version": "latest"
     },
     "vue-cli-plugin-vuetify": {
       "version": "latest",
@@ -29,7 +29,7 @@
       "useTheme": true
     },
     "vue-cli-plugin-thrivehive": {
-      "version": "latest"
+      "version": "^2.0.0"
     }
   }
 }
