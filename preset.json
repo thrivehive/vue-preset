@@ -14,7 +14,7 @@
     },
     "@vue/cli-plugin-unit-jest": {},
     "vue-cli-plugin-storybook": {
-      "version": "latest"
+      "version": "^2.0.0"
     },
     "vue-cli-plugin-vuetify": {
       "version": "latest",
